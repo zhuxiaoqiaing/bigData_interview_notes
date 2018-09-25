@@ -29,3 +29,5 @@
        2.科研能力
        3.公司认知
        4.面试者的素质认知
+   七. 其他参考资料
+       https://github.com/zhuxiaoqiaing/Interview-Notebook
