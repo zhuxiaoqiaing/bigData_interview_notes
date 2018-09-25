@@ -1,4 +1,4 @@
-一. SCHEMAL
+一. 表结构SCHEMAL
 --建表
 --学生表
 CREATE TABLE `Student`(
