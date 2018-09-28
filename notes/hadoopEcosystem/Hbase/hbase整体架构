@@ -3,7 +3,7 @@
 HBase架构组成
 HBase采用Master/Slave架构搭建集群，它隶属于Hadoop生态系统，由一下类型节点组成：HMaster节点、HRegionServer节点、ZooKeeper集群，而在底层，它将数据存储于HDFS中，因而涉及到HDFS的NameNode、DataNode等，总体结构如下：
 
- ![image](https://github.com/ButBueatiful/dotvim/raw/master/screenshots/vim-screenshot.jpg)
+ ![image](https://github.com/zhuxiaoqiaing/bigData_interview_notes/blob/master/pic/CD4694E771AB43BBB3D1372B3CD29A3C.png)
 其中HMaster节点用于：
 管理HRegionServer，实现其负载均衡。
 管理和分配HRegion，比如在HRegion split时分配新的HRegion；在HRegionServer退出时迁移其内的HRegion到其他HRegionServer上。
